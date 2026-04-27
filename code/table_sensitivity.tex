@@ -1,0 +1,26 @@
+\begin{table}[htbp]
+\centering
+\caption{Sensitivity Analysis: Ecuador Adjustment Factor and Adjusted Exposure}
+\label{tab:sensitivity}
+\small
+\begin{tabular}{lccccc}
+\toprule
+ & & & \multicolumn{2}{c}{$\beta^*$ adjusted} \\
+\cmidrule(lr){4-5}
+Scenario & $F^{EC}$ & $\overline{E}$ & Human & GPT-4 \\
+\midrule
+1. Base (PISA-D Math 377, ENEMDU 10.4) & 0.7314 & 0.8080 & 0.1328 & 0.1502 \\
+2. PISA CAF composite (432.9) & 0.7464 & 0.8381 & 0.1355 & 0.1532 \\
+3. UNDP schooling (8.97) & 0.7184 & 0.7821 & 0.1305 & 0.1475 \\
+4. CAF PISA + UNDP schooling & 0.7335 & 0.8122 & 0.1332 & 0.1506 \\
+5. GCR firm_tech (4.2) & 0.7252 & 0.8080 & 0.1317 & 0.1489 \\
+\midrule
+Range & [0.7184, 0.7464] & & [0.1305, 0.1355] & [0.1475, 0.1532] \\
+\bottomrule
+\end{tabular}
+\vspace{2mm}
+\begin{minipage}{\textwidth}
+\footnotesize
+\textit{Notes:} $\beta^*_h = 0.1816 \times F^{EC}$, $\beta^*_g = 0.2053 \times F^{EC}$. Ecuador $\beta$ from BLS crosswalk (97.8\% coverage). Scenario 1 is baseline.
+\end{minipage}
+\end{table}
