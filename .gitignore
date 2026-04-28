@@ -1,2 +1,4 @@
 data/ENEMDU/
 *.sav
+amb
+code/deepseek api/.env
